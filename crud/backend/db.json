@@ -16,13 +16,13 @@
       "price": "7520.81"
     },
     {
-      "name": "Marca Texto MasterPrint",
-      "price": "8,50",
+      "name": "lapis preto",
+      "price": 3,
       "id": 4
     },
     {
-      "name": "Desenvolvimento Web Moderno com JavaScript COMPLETO + Projetos",
-      "price": "850,00",
+      "name": "Marca Texto MasterPrint",
+      "price": 2.5,
       "id": 5
     }
   ]
