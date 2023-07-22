@@ -1,16 +1,3 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "crud/frontend",
-        "use": "@vercel/node@1.10.0",
-        "config": {
-          "command": "npm run build" 
-        }
-      }
-    ],
-    "routes": [
-              { "handle": "filesystem" },
-              { "src": "/(.*)", "dest": "/" }          
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
   }
