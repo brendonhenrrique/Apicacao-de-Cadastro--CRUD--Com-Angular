@@ -9,7 +9,7 @@ import { map, catchError } from "rxjs/operators";
   providedIn: "root",
 })
 export class ProductService {
-  baseUrl = "https://picayune-full-beet.glitch.me/products";
+  baseUrl = "https://picayune-full-beet.glitch.me/";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
