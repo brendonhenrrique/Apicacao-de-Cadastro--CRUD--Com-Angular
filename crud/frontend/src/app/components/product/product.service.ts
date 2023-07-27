@@ -9,7 +9,7 @@ import { map, catchError } from "rxjs/operators";
   providedIn: "root",
 })
 export class ProductService {
-  baseUrl = "https://picayune-full-beet.glitch.me/";
+  baseUrl = "https://json-crud-angular.onrender.com/";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
